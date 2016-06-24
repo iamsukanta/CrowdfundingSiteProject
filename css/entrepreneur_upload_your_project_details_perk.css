@@ -1,0 +1,489 @@
+#upload_project_details{
+    width: 100%;
+    height: 1800px;
+    background-color: #ffffff;
+}
+#upload_project_details h1{
+    padding: 20px;
+}
+.upload_project_details_inner{
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+}
+.upload_project_details_inner_sidebar_left{
+    width:250px;
+    height: auto;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+.upload_project_details_inner_sidebar_left ul{
+    list-style-type: none;
+    width: 100%;
+    height: 264px;
+    background-color: #F5F5F5;
+}
+.upload_project_details_inner_sidebar_left ul a{
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+}
+.upload_project_details_inner_sidebar_left ul li {
+    height:50px;
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.upload_project_details_inner_sidebar_left ul li:hover{
+    color: #FA1618;
+}
+
+
+.upload_project_details_inner_sidebar_left_button{
+    width:100%;
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    float: left;
+    padding: 20px;
+    margin-top: 15px;
+    /*margin-left: 20px;*/
+    /*margin-top: 70px;*/
+    /*margin-bottom: 40px;*/
+
+}
+.upload_project_details_inner_sidebar_left_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.upload_project_details_inner_sidebar_left_button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.upload_project_details_inner_sidebar_left_button:hover span {
+    padding-right: 25px;
+}
+
+.upload_project_details_inner_sidebar_left_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.upload_project_details_inner_sidebar_right{
+    width:650px;
+    height:auto;
+    background-color: #F5F5F5;
+    float: left;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+
+
+}
+#basics_text_tag_campaign_card_image{
+    clear: both;
+    display: block;
+    margin-top: 10px;
+
+
+}
+#Campaign_card_image{
+    width: 300px;
+    height: 200px;
+    background-color: #DEDEDF;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.upload_project_details_inner_sidebar_right a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#Campaign_card_image .Campaign_card_image_button_text{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+
+}
+
+#basics_text_tag_video_url{
+    display: block;
+    clear: both;
+    margin-top: 70px;
+
+}
+/*.upload_project_details_inner_sidebar_right input{
+        width: 400px;
+        height: 40px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 0 20px;
+    outline: none;
+    display: inline-block;
+
+}*/
+.upload_project_details_inner_sidebar_right_add_perk_button{
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px;
+    float: left;
+    padding: 10px;
+    margin-top: 35px;
+    font-weight: bolder;
+    border: 2px solid #f4511e;
+
+}
+.upload_project_details_inner_sidebar_right_add_perk_button:hover{
+    background-color: green;
+}
+
+.upload_project_details_inner_sidebar_right_add_secret_perk_button{
+    border-radius: 1px;
+    border: none;
+    color: #f4511e;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    float: left;
+    padding: 10px;
+    margin-top: 35px;
+    border: 2px solid #f4511e;
+    font-weight: bolder;
+    display: block;
+}
+.upload_project_details_inner_sidebar_right_add_secret_perk_button:hover{
+    background-color: #f4511e;
+    color: #ffffff;
+}
+.perk_inner_text{
+    margin-top: 100px;
+    color: #A8A8A8;
+}
+.perk_inner_heading_text{
+    text-align: center;
+    color: #A8A8A8;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
+#basics_text_tag_catagory{
+    margin-top: 80px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#basics_text_tag_catagory_name{
+    width: 440px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+
+.upload_project_details_inner_sidebar_right #story_heading {
+    margin-left: -20px;
+
+}
+.upload_project_details_inner_sidebar_right #basics_text_tag {
+
+    margin-top: 20px;
+    border-top: 2px solid #ffffff;
+}
+
+.upload_project_details_button{
+    border-radius: 1px;
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    float: right;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 239px;
+
+}
+.upload_project_details_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.upload_project_details_button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.upload_project_details_button:hover span {
+    padding-right: 25px;
+}
+
+.upload_project_details_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*Modal Pages CSS Starts*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    height: auto;
+    background-color: #ffffff;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+.modal-content-inner {
+    background-color: #F5F5F5;
+    margin: 5px auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 95%;
+
+}
+
+.modal-content-inner input{
+    width: 200px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+.perk_contribution_amount1{
+    width: 200px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+.modal-content-inner-text-perk-name{
+
+    /*margin-left: 130px;*/
+    /*display: inline-block; */
+
+}
+.number-content-inner-number-available-text{
+    display: inline-block;
+
+}
+.number-content-inner-number-available-text1{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.delivery-form{
+    float: left;
+    width: 100px;
+    padding: 5px 5px;
+    display: inline-block;
+    /*margin-left: 25px;*/
+}
+
+#modal-page-estimated-delivery-month-select{
+    width: 100px;
+    padding: 5px 5px;
+    /*margin-top: 10px;*/
+    font-size: 14px;
+    float: left;
+    margin-left: 142px;
+    /*position: relative;*/
+
+}
+#modal-page-estimated-delivery-year-select{
+    width: 100px;
+    padding: 5px 5px;
+    /*margin-top: 10px;*/
+    font-size: 14px;
+    float: left;
+    margin-left: 20px;
+
+
+}
+
+.modal-page-optional-text{
+    font-size: 15px;
+    color: #ABABAB;
+}
+
+#modal-page-shipping-location-select{
+    width: 215px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    /*margin-bottom: 10px;*/
+}
+.contribution-amount-form{
+    margin-left: 135px;
+
+}
+
+
+/*modal pages tabs starts*/
+
+ul.tab {
+    width: 210px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+
+    color: black;
+    float: left;
+    border-left:1px solid green;
+    border-right:1px solid green;
+    /*margin-left: 50px;*/
+
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    width: 75px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 7px 14px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #0EB4B6;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 0px;
+    border-top: none;
+}
+
+/*modal pages tab ends*/
+
+.modal_content_button_cancel{
+    border-radius: 1px;
+    border: none;
+    color: #f4511e;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+    /*margin-left: 15px;*/
+    border: 2px solid #f4511e;
+    font-weight: bolder;
+    display: block;
+    float: right;
+    margin-top: -50px;
+
+}
+#modal-footer{
+    height: 80px;
+    background-color: #ffffff;
+}
+.modal_content_button_save{
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    /*margin: 0px;*/
+    font-weight: bolder;
+    border: 2px solid #f4511e;
+    float: right;
+    margin-right: -8px;
+    margin-top: -50px;
+
+
+}
+/* The Close Button */
+.close {
+    margin-top: -20px;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Modal Pages CSS Ends*/
+#adding_perk_page{
+    width: 250px;
+    height: 500px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,88 @@
+.contribute-page-button-starts{
+    width: auto;
+    height: 750px;
+}
+.contribute-page-button-starts-left{
+    width: 50%;
+    height: 700px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.contribute-page-button-starts-right{
+    width: 45%;
+    height: 700px;
+    background-color:#ffffff;
+    float: right;
+
+
+}
+.credit_or_paypal_form input{
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+}
+.contribute-page-button-starts-right-top{
+    background-color: #DBF4F4;
+    margin-top: 15px;
+    padding: 10px;
+    padding-top: 20px;
+
+}
+.contribute-page-button-starts-right-bottom{
+    height: 350px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    padding-top: 20px;
+
+}
+.contribution_amount_paypal_form input{
+    width:200px;
+    height: 35px;
+    padding-left: 10px;
+}
+.submit-payment-button{
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.submit-payment-button:hover{
+    border:2px solid #f4511e;
+    color: #f4511e;
+    background-color: #ffffff;
+}
+
+.chosen-perk-details{
+    padding: 20px;
+    background-color: #F6F6F6;
+    border-radius: 3px;
+    border-bottom: 5px solid #FF5050;
+    outline: none;
+    text-outline: none;
+}
+
+.chosen-perk-details:hover{
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 5px 5px rgba(128,128,128,.3);
+    cursor: pointer;
+}
+
+.chosen-perk-details:not(:hover){
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 3px 3px rgba(128,128,128,.1);
+}
+
+.chosen-perk-details-header-text{
+    font-size: 30px;
+}

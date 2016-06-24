@@ -1,0 +1,138 @@
+#searching_category_page{
+    width: auto;
+    height: 1400px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+#searching_category_page h1{
+    text-align: center;
+
+}
+.searching-category-page-inner{
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+}
+.searching-category-page-inner-content{
+    width: 267px;
+    height: 510px;
+    background-color: #F7F7FA;
+    float: left;
+    margin: 0 10px;
+    margin-top: 20px;
+
+}
+.searching-category-page-inner-content-text-division{
+    width: 250px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.searching-category-page-inner-content-inner{
+    width: 250px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.searching-category-page-inner-content-inner-fill-up1{
+    width: 120px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-inner-fill-up2{
+    width: 65px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-inner-fill-up3{
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-inner-fill-up4{
+    width: 210px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-inner-fill-up5{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-inner-fill-up6{
+    width: 160px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-inner-fill-up7{
+    width: auto;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #2BDE73;
+}
+.searching-category-page-inner-content-text-division-bottom-text{
+    font-size: 12px;
+}
+
+.searching-category-show-more-button{
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 520px;
+
+}
+/*.searching-category-show-more-button:hover{
+        border:2px solid #f4511e;
+        color: #f4511e;
+        background-color: #ffffff;
+
+}*/
+/*.searching-category-page-inner-content2{
+        width: 350px;
+        height: 400px;
+        background-color: #fff000;
+        float: left;
+
+}
+.searching-category-page-inner-content3{
+        width: 350px;
+        height: 400px;
+        background-color: #fff000;
+        float: left;
+
+
+}*/
+#searching-by-category-name{
+    width: 355px;
+    padding: 5px 5px;
+    font-size: 14px;
+    float: left;
+}
+#searching-by-projects-types{
+    width: 350px;
+    padding: 5px 5px;
+    font-size: 14px;
+    float: left;
+    margin-left: 50px;
+
+}
+#searching-by-most-funded-projects{
+    width: 350px;
+    padding: 5px 5px;
+    font-size: 14px;
+    float: right;
+
+}

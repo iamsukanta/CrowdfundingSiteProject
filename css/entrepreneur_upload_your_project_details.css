@@ -1,0 +1,373 @@
+#upload_project_details{
+    width: 100%;
+    height: 1250px;
+    background-color: #ffffff;
+}
+#upload_project_details h1{
+    padding: 20px;
+}
+.upload_project_details_inner{
+    width: auto;
+    height: 1250px;
+    background-color: #ffffff;
+}
+.upload_project_details_inner_sidebar_left{
+    width:250px;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+
+}
+
+.upload_project_details_inner_sidebar_left ul{
+    list-style-type: none;
+    width: 100%;
+    height: 264px;
+    background-color: #F5F5F5;
+}
+.upload_project_details_inner_sidebar_left ul a{
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+}
+.upload_project_details_inner_sidebar_left ul li {
+    height:50px;
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.upload_project_details_inner_sidebar_left ul li:hover{
+    color: #FA1618;
+}
+
+
+.upload_project_details_inner_sidebar_left_button{
+    width:100%;
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    float: left;
+    padding: 20px;
+    margin-top: 15px;
+    /*margin-left: 20px;*/
+    /*margin-top: 70px;*/
+    /*margin-bottom: 40px;*/
+
+}
+.upload_project_details_inner_sidebar_left_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.upload_project_details_inner_sidebar_left_button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.upload_project_details_inner_sidebar_left_button:hover span {
+    padding-right: 25px;
+}
+
+.upload_project_details_inner_sidebar_left_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.upload_project_details_inner_sidebar_right{
+    width:850px;
+    height: 1050px;
+    background-color: #F5F5F5;
+    float: left;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+
+
+}
+#basics_text_tag_campaign_card_image{
+    margin-top: 10px;
+
+
+}
+#Campaign_card_image{
+    width: 200px;
+    height: 200px;
+    background-color: #DEDEDF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.upload_project_details_inner_sidebar_right a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#Campaign_card_image .Campaign_card_image_button_text{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+
+}
+#card_image_upload_button{
+
+}
+.Campaign_card_image_button{
+    width:200px;
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    float: left;
+    padding: 20px;
+    margin-top: 15px;
+    display: block;
+    /*margin-left: 20px;*/
+    /*margin-top: 70px;*/
+    /*margin-bottom: 40px;*/
+
+}
+.Campaign_card_image_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.Campaign_card_image_button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.Campaign_card_image_button:hover span {
+    padding-right: 25px;
+}
+
+.Campaign_card_image_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#basics_text_tag_catagory{
+    padding-top: 80px;
+    display: block;
+}
+
+#basics_text_tag_catagory_name{
+    width: 440px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+/*.baasics_text_tag_heading{
+        margin-bottom: 10px;
+        margin-top: 10px;
+}*/
+
+#tag_form input{
+    width: 440px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 0 5px;
+    outline: none;
+    display: block;
+
+}
+#tag_form input:focus{
+    border:2px solid #00ffff;
+
+}
+
+.upload_project_details_inner_sidebar_right #basics_heading {
+    margin-left: -20px;
+
+}
+.upload_project_details_inner_sidebar_right #basics_text_tag {
+
+    margin-top: 20px;
+    border-top: 2px solid #ffffff;
+}
+.upload_project_details_inner_sidebar_right #basics_text_funding {
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+}
+.basics_text_funding_deadlines{
+    margin-top: 15px;
+    color: red;
+
+}
+#days_limit input{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    margin-top: -10px;
+}
+#days_limit input:focus{
+    border:2px solid blue;
+}
+.upload_project_details_inner_sidebar_right #basics_text_60_days {
+    display: inline-block;
+    float: left;
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+.upload_project_details_button{
+    width:250px;
+    border-radius: 1px;
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    float: right;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+    /*margin-left: 20px;*/
+    /*margin-top: 70px;*/
+    /*margin-bottom: 40px;*/
+
+}
+.upload_project_details_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.upload_project_details_button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.upload_project_details_button:hover span {
+    padding-right: 25px;
+}
+
+.upload_project_details_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/*.custom-file-input1 {
+                display: inline-block;
+                position: relative;
+                color: #533e00;
+                float: left;
+
+        }
+        .custom-file-input1 input {
+                visibility: hidden;
+                width: 200px;
+
+        }
+        .custom-file-input1:before {
+
+                height: 200px;
+                content: 'GO';
+                display: block;
+                background: -webkit-linear-gradient( -180deg, #ffdc73, #febf01);
+                background: -o-linear-gradient( -180deg, #ffdc73, #febf01);
+                background: -moz-linear-gradient( -180deg, #ffdc73, #febf01);
+                background: linear-gradient( -180deg, #ffdc73, #febf01);
+                background-color: #f4511e;
+                border-radius: 10px;
+                padding: 15px;
+                outline: none;
+                cursor: pointer;
+                text-align: center;
+                font-size: 70px;
+                font-weight: bolder;
+                position: absolute;
+                left: 0;
+                margin-top: 20px;
+                right: 0;
+                color: white;
+        }
+        .custom-file-input1:hover:before {
+                border-color: #febf01;
+        }
+                .custom-file-input1:active:before {
+                background: #febf01;
+        }
+*/
+
+.custom-file-input {
+    display:inline-block;
+    position: relative;
+    color: #533e00;
+    clear: both;
+    float: left;
+}
+.custom-file-input input {
+    visibility: hidden;
+    width: 200px;
+}
+.custom-file-input:before {
+    height: 50px;
+    content: 'UPLOAD AN IMAGE';
+    display: block;
+    /*background: -webkit-linear-gradient( -180deg, #ffdc73, #febf01);
+    background: -o-linear-gradient( -180deg, #ffdc73, #febf01);
+    background: -moz-linear-gradient( -180deg, #ffdc73, #febf01);
+    background: linear-gradient( -180deg, #ffdc73, #febf01);*/
+    background-color: #f4511e;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    right: 0;
+    color: white;
+}
+.custom-file-input:hover:before {
+    background-color:#4CAF50;
+}
+.custom-file-input:active:before {
+    background: #febf01;
+}

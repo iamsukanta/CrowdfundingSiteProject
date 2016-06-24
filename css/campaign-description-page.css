@@ -1,0 +1,331 @@
+#searching_category_page{
+    width: auto;
+    height: 2700px;
+    background-color: white;
+}
+#searching_category_page h1{
+    text-align: center;
+
+}
+.centered-text{
+    text-align: center;
+
+}
+.searching_category_page_inner ul{
+    list-style-type: none;
+    margin-left: 170px;
+    border-bottom: 2px solid #ccc;
+
+}
+.searching_category_page_inner ul li{
+    list-style-type: none;
+    color: black;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.searching_category_page_inner ul li:hover{
+    color: #f4511e;
+}
+
+#campaign-description-left-side{
+    margin-left: 10px;
+    background-color: #FAFAFA;
+    width: 150px;
+    float: left;
+
+}
+#campaign-description-left-side ul{
+    list-style-type: none;
+}
+#campaign-description-left-side ul li{
+    padding-top: 30px;
+}
+#campaign-description-left-side ul li.header_menu{
+    padding-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+#campaign-description-left-side ul li  a{
+    color: rgb(70,70,70);
+}
+#campaign-description-left-side ul li.facebook{
+    margin-top: 45px;
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    padding-top: 8px;
+    margin-left: 50px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+}
+#campaign-description-left-side ul li.facebook:hover{
+    background-color: rgb(9,80,162);
+}
+
+#campaign-description-left-side ul li.twitter{
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 15px;
+    padding-top: 8px;
+    margin-left: 50px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    background-color:rgb(255,255,255);
+    font-size: 20px;
+}
+#campaign-description-left-side ul li.twitter:hover{
+    background-color: rgb(40,168,224);
+}
+
+#campaign-description-left-side ul li.linked_in{
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 15px;
+    padding-top: 8px;
+    margin-left: 50px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+}
+#campaign-description-left-side ul li.linked_in:hover{
+    background-color: rgb(1,96,150);
+}
+
+#campaign-description-left-side ul li.google_plus{
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 15px;
+    padding-top: 8px;
+    margin-left: 50px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+}
+#campaign-description-left-side ul li.google_plus:hover{
+    background-color: rgb(207,67,52);
+}
+
+#campaign-description-left-side ul li.envelope{
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 15px;
+    padding-top: 8px;
+    margin-left: 50px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+}
+
+#campaign-description-left-side ul li.envelope:hover{
+    background-color: rgb(255,0,0);
+}
+
+#campaign-description-left-side ul li.you_tube{
+    width: 40px;
+    height: 30px;
+    border-radius: 60px;
+    margin-top: 15px;
+    padding-top: 8px;
+    margin-left: 50px;
+    /*border: 2px solid white;*/
+    text-align: center;
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+}
+#campaign-description-left-side ul li.you_tube:hover{
+    background-color: rgb(255,0,0);
+}
+
+#campaign-description-middle-side{
+    margin-left: 10px;
+    width: 730px;
+    float: left;
+
+
+}
+.campaign-description-middle-side_inner{
+    width: 700px;
+    margin: 0 auto;
+
+}
+.campaign-description-middle-side-personal-details{
+    height: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+
+}
+.campaign-description-middle-side-personal-image{
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    float: left;
+    margin-right:20px; 
+}
+.campaign-description-middle-side-personal-image img{
+    border-radius: 80px;
+}
+.campaign-description-middle-side-personal-description{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+    margin-right:10px; 
+}
+.campaign-description-middle-side-category-image{
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    float: left;
+    margin-right:20px;
+}
+.campaign-description-middle-side-category-image img{
+    border-radius: 80px;
+}
+.campaign-description-middle-side-category-description{
+    width: 210px;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+    margin-right:10px; 
+}
+.campaign-description-middle-side_inner-content-2{
+    width: 700px;
+    margin: 0 auto;
+    border-bottom: 2px solid #ccc;
+}
+.campaign-description-middle-side_inner-content-2 ul{
+    margin-left: 12px;
+}
+
+.campaign-description-middle-side_inner-content-2-contribute-button{
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    float: right;
+    padding: 10px;
+    display: block;
+    color: both;
+
+}
+.campaign-description-middle-side_inner-content-2-contribute-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.campaign-description-middle-side_inner-content-2-contribute-button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.campaign-description-middle-side_inner-content-2-contribute-button:hover span {
+    padding-right: 25px;
+}
+
+.campaign-description-middle-side_inner-content-2-contribute-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.campaign-description-middle-side_inner-content-2-button{
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+.campaign-description-middle-side_inner-content-2-button:hover{
+    border:2px solid #f4511e;
+    color: #f4511e;
+    background-color: #ffffff;
+
+}
+
+.campaign-description-middle-side_inner-content-2-button2{
+    border-radius: 1px;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+    margin-top: -20px;
+    margin-right: 15px;
+}
+.campaign-description-middle-side_inner-content-2-button2:hover{
+    border:2px solid #f4511e;
+    color: #f4511e;
+    background-color: #ffffff;
+
+}
+
+.campaign-description-middle-side_inner-content-2-text{
+
+}
+#campaign-description-right-side{
+    margin-left: 10px;
+    width: 250px;
+    height: 1000px;
+    float: left;
+
+}
+.campaign-description-right-side-project-details{
+    padding: 20px;
+    background-color: #F6F6F6;
+    border-radius: 3px;
+    border-bottom: 5px solid #FF5050;
+    outline: none;
+    text-outline: none;
+}
+
+.campaign-description-right-side-project-details:hover{
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 5px 5px rgba(128,128,128,.3);
+    cursor: pointer;
+}
+
+.campaign-description-right-side-project-details:not(:hover){
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 3px 3px rgba(128,128,128,.1);
+}
+
+.campaign-description-right-side-header-text{
+    font-size: 30px;
+}

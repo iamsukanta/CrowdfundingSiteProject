@@ -1,0 +1,2 @@
+<a href="<?php echo base_url(); ?>project_uploader/upload_project_perk"><button id="myAddPerkBtn"class ="upload_project_details_inner_sidebar_right_add_perk_button"><span>ADD PERK</span></button></a>
+<a href="<?php echo base_url(); ?>project_uploader/upload_project_secret_perk"><button id="myAddSecretPerkBtn"class ="upload_project_details_inner_sidebar_right_add_secret_perk_button"><span>ADD SECRET PERK</span></button></a>

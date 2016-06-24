@@ -1,0 +1,30 @@
+/*Profile page Css Starts*/
+.dropdown-menu {
+    margin-top: 10px;
+    margin-left: 35px;
+    border-top-right-radius:0;
+    border-top-left-radius: 0;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 5px 15px 5px 0px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: nowrap;
+}
+a:hover,a:visited,a:focus{
+    text-decoration: none;
+}
+a.caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+a:focus .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+/*Profile page css Ends*/
